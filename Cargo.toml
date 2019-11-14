@@ -6,10 +6,10 @@ edition = "2018"
 build = "build.rs"
 
 [dependencies]
-embedded-hal = "0.2.2"
-cortex-m-rt = "0.6.7"
-cortex-m="0.5.7"
-crazy_flie = { git = "https://github.com/crustyflie/crazy_flie" }
+embedded-hal = "0.2.3"
+cortex-m-rt = "0.6.10"
+cortex-m="0.6.1"
+crazy_flie = { path = "../crazy_flie" }
 
 [dependencies.stm32f4]
 version = "0.6.0"
